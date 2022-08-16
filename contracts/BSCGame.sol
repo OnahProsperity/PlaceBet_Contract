@@ -155,7 +155,7 @@ contract BSCGame {
         return msg.sender;
     }
     
-    function updateBSG(address _bscg) public onlyOwner returns (address) {
+    function updateBSG(address _bscg) public onlyOwner {
         bscg = _bscg;
     }
 
